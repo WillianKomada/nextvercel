@@ -28,8 +28,18 @@ export default function Home() {
           </li>
           <li className={styles.listItem}>Entrar no site da Vercel;</li>
           <li className={styles.listItem}>Acessar a conta;</li>
-          <li className={styles.listItem}></li>
-          <li className={styles.listItem}></li>
+          <li className={styles.listItem}>Clicar em New project;</li>
+          <li className={styles.listItem}>Importar o repositório do GitHub</li>
+          <li className={styles.listItem}>Ou utilizar a Vercel CLI</li>
+          <li className={styles.listItem}>
+            Com a Vercel CLI é só digitar vercel dentro do repositório
+          </li>
+          <li className={styles.listItem}>
+            Fazer o passo a passo da configuração
+          </li>
+          <li className={styles.listItem}>
+            Quando quiser atualizar um app com deploy basta dar - vercel --prod
+          </li>
         </ol>
       </main>
 
